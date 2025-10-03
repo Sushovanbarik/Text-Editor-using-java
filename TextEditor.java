@@ -165,7 +165,7 @@ public class TextEditor extends JFrame implements ActionListener {
                 break;
 
             case "About TextEditor":
-                JOptionPane.showMessageDialog(this, "Simple TextEditor\nCreated in Java Swing.\nDeveloped by Swarup Pradhan.");
+                JOptionPane.showMessageDialog(this, "Simple TextEditor\nCreated in Java Swing.\nDeveloped by Sushovan Barik.");
                 break;
         }
     }
@@ -257,4 +257,5 @@ public class TextEditor extends JFrame implements ActionListener {
         SwingUtilities.invokeLater(TextEditor::new);
     }
 }
+
 
